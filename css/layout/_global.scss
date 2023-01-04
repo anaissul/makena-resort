@@ -1,0 +1,26 @@
+
+.welcome {
+    background: url(../../img/palm-bg.jpg) center/cover;
+    height:130vh;
+    margin-top:-25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .surfer {
+        background: url(../../img/surfer-overlay.jpg) center/cover;
+        height:80%;
+        width:50%;
+        margin-top:100px;
+    }
+    .explore {
+        background:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:40%;
+        padding:50px;
+        margin-left:-100px;
+        margin-top:100px;
+    }
+}
