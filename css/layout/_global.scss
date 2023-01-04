@@ -1,3 +1,6 @@
+body {
+    font-family: 'Open Sans';
+}
 
 .welcome {
     background: url(../../img/palm-bg.jpg) center/cover;
@@ -9,7 +12,7 @@
 
     .surfer {
         background: url(../../img/surfer-overlay.jpg) center/cover;
-        height:80%;
+        height:70%;
         width:50%;
         margin-top:100px;
     }
@@ -18,9 +21,137 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: flex-start;
         height:40%;
         padding:50px;
         margin-left:-100px;
         margin-top:100px;
+        width:40%
     }
+
+    a {
+        text-decoration: none;
+        color:$rouge;
+    }
+}
+
+h1, h2 {
+    font-family: 'Lustria';
+    font-weight: normal;
+}
+
+h2 {
+    color:$bleu;
+    font-size: 40px;
+    max-width:70%;
+}
+
+section h3 {
+    color:$rouge;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;;
+}
+
+.btn {
+    border:$rouge 1px solid;
+    padding:15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sustainable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    * {
+        width:50%;
+        padding:200px;
+    }
+
+    .res-text {
+        color:$bleu-clair;
+        line-height: 2rem;
+        font-weight: bold;
+    }
+}
+
+.hero {
+    background: url(../../img/makena.jpg) center/cover;
+    height:100vh;
+}
+
+.wrapper {
+    width:95%;
+    margin: 0 auto;
+}
+
+.hideaway {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:100vh;
+
+    * {
+        width:50%;
+        margin: 0 auto;
+    }
+
+    .hid-img {
+        order:2;
+        text-align: center;
+        overflow: hidden;
+        img {
+            box-shadow: 50px 100px rgb(184, 184, 184);
+            width:70%
+        }
+    }
+    h2, h3 {
+        margin-bottom:30px;
+    }
+
+    .hid-text {
+        color:$bleu-clair;
+        line-height: 2rem;
+        font-weight: bold;
+    }
+
+}
+
+.res {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:100vh;
+    gap:50px;
+
+    * {
+    }
+
+    .res-img {
+        width:80%;
+        text-align: center;
+        img {
+            width: 90%;
+        }
+    }
+    h2, h3 {
+        margin-bottom:30px;
+    }
+
+    .res-text {
+        color:$bleu-clair;
+        line-height: 2rem;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        p {
+            max-width:70%
+        }
+    }
+
+
 }
